@@ -1,0 +1,63 @@
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Full Screen Mario</title>
+
+    <link href="./game/mario.css" rel="stylesheet">
+    <link href="./game/stylesheet.css" rel="stylesheet">
+    
+    <script src="./game/data.js"></script>
+    <script src="./game/editor.js"></script>
+    <script src="./game/events.js"></script>
+    <script src="./game/generator.js"></script>
+    <script src="./game/library.js"></script>
+    <script src="./game/load.js"></script>
+    <script src="./game/maps.js"></script>
+    <script src="./game/mario.js"></script>
+    <script src="./game/quadrants.js"></script>
+    <script src="./game/sounds.js"></script>
+    <script src="./game/sprites.js"></script>
+    <script src="./game/things.js"></script>
+    <script src="./game/toned.js"></script>
+    <script src="./game/triggers.js"></script>
+    <script src="./game/upkeep.js"></script>
+    <script src="./game/utility.js"></script>
+    
+</head>
+<body onload="FullScreenMario()">
+
+
+<canvas width="1920" height="937" style="width: 1920px; height: 937px;"></canvas>
+<table id="data_display" class="display" style="width: 1934px;">
+    <td class="indisplay">SCORE<br>0</td>
+    <td class="indisplay">COINS<br>0</td>
+    <td class="indisplay">WORLD<br>1-1</td>
+    <td class="indisplay">TIME<br>372</td>
+    <td class="indisplay">LIVES<br>2</td>
+</table>
+<div class="text" style="margin-left: 80px; margin-top: 52px;">
+<div style="text-align:right;color:#ffcccc;margin-top:-7px">©1985 NINTENDO</div><p id="explanation" style="text-align:center;&lt;!--/*text-shadow:2px 2px 1px black;*/--&gt;margin-left:7px;">  Arrow/WASD keys move  <br>  Shift to fire/sprint  <br>  P/M to pause/mute</p>
+</div>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112391661-11"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112391661-11');
+</script>
+
+</body></html>
