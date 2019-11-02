@@ -1,2 +1,2 @@
 # mgame
-<a href="https://www.yupi.io/free-mario.html">Mario Unblocked Game</a> Example  Play game.
+<a href="https://www.yupi.io/free-mario.html">Mario Unblocked Game</a> Example  Play game. Full Screen Mario Game
